@@ -29,4 +29,3 @@ The manager is a digital system running a server that monitors all machines in t
 The manager also assigns jobs to the first machine found that can perform the job. It also asks the machine to process the job. At the end of the process, all jobs are deleted from the manager's memory. 
 
 I have also included a listener, which is notified whenever the machines goes online, offline or in an error state, it prompts the internal listener to show its description including the new status. The manager is the machine that acts as a listener, and once it receives a notification from a machine in the system, it displays the full description of that machine. 
-![image](https://user-images.githubusercontent.com/79163858/205318874-86dac0ba-400e-4255-958f-ebdd7cb1e9a5.png)
